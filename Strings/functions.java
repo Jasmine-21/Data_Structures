@@ -68,7 +68,7 @@ public class functions {
 		 
 	
 		String zx = "Sun-Soft Technologies";
-		String kasd = zx.substring(4, 8);
+		String kasd = zx.substring(4);
 		System.out.println(kasd); // Soft}
 
 		String ssd = "India";
