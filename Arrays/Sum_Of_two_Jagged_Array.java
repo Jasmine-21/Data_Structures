@@ -8,17 +8,23 @@ public class Sum_Of_two_Jagged_Array {
 	public static void main (String args[])
     {
         int count=0;
-        int a[][]=new int[5][];
-        int b[][]=new int[5][];
-        int c[][]=new int[5][];
+        int a[][]=new int[4][];
+        int b[][]=new int[3][];
+        int c[][]=new int[2][];
+	int d[][]=new int[1][];
         for(int i=0;i<5;i++) 
         {
             a[i]=new int [i+1];
             b[i]=new int [i+1];
             c[i]=new int [i+1];
+	     d[i]=new int [i+1];
         } 
+		System.out.println(a[i].length);
+		System.out.println(b[i].length);
+		System.out.println(c[i].length);
+		System.out.println(d[i].length);
         //rows
-        for(int i=0;i<5;i++)
+        for(int i=0;i<4;i++)
         {
         	//coulmns
             for(int j=0;j<a[i].length;j++)
