@@ -18,7 +18,7 @@ public class Palindrome {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-String s="madam";
+String s="radar";
 if(pal(s))
 {
 	System.out.print("paindrome");
