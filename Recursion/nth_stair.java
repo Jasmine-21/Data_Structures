@@ -4,14 +4,14 @@ import java.util.*;
 // Count ways to reach the nth stair using step 1, 2 or 3
 //using Recursive Method
 public class nth_stair {
-public static int count_stairs(int n)
+public static int count_stairs(int h)
 {
-if(n==1 ||n==0)
+if(h==1 ||h==0)
 	return 1;
-else if(n==2)
+else if(h==2)
 	return 2;
 else
-	return count_stairs(n-3)+count_stairs(n-2)+count_stairs(n-1);
+	return count_stairs(h-3)+count_stairs(h-2)+count_stairs(h-1);
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
