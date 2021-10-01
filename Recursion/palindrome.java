@@ -1,13 +1,13 @@
 package Recursion;
 import java.util.*;
 public class palindrome {
-	 public static boolean isPal(String s)
+	 public static boolean isPal(String str)
 	 {
-		 if(s.length() == 0 || s.length() == 1)
+		 if(str.length() == 0 || str.length() == 1)
 	            return true; 
-	        if(s.charAt(0) == s.charAt(s.length()-1))
+	        if(str.charAt(0) == str.charAt(str.length()-1))
 	        	return true;
-//	       return isPal(s.substring(1, s.length()-1));
+//	       return isPal(str.substring(1, str.length()-1));
 	        return false;
 	    }
 	public static void main(String[] args) {
