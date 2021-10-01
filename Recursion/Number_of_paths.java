@@ -6,20 +6,20 @@ import java.util.*;
 //G H I
 // paths end 'I' ,start 'A'  :
 public class Number_of_paths {
-public static int path(int m,int n)
+public static int path(int y,int t)
 {
-	if(m==1 ||n==1)
+	if(y==1 ||t==1)
 		return 1;
 	else
-		return path(m-1,n)+path(m,n-1);
+		return path(y-1,t)+path(y,t-1);
 	
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner sc=new Scanner(System.in);
-int n=sc.nextInt();
-int m=sc.nextInt();
-System.out.println(path(m,n));
+int y=sc.nextInt();
+int t=sc.nextInt();
+System.out.println(path(y,t));
 	}
 
 }
