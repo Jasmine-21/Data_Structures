@@ -11,8 +11,8 @@ public class functions {
 		System.out.println(s2); //India 
 
 		//String(char[ ] array)
-		char ar[ ] = {'j','a','v','a'};
-		String ss = new String (ar);
+		char array[ ] = {'j','a','v','a'};
+		String ss = new String (array);
 		System.out.println(ss);//Java
 
 		//String(char[ ] ary, int startIndex, int count)
