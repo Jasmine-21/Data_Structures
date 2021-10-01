@@ -18,13 +18,13 @@ public class Find_Missing_Number {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner sc=new Scanner(System.in);
-int n=sc.nextInt();
-int arr[]=new int[n];
-for(int i=0;i<n;i++)
+int t=sc.nextInt();
+int arr[]=new int[t];
+for(int j=0;j<t;j++)
 {
-	arr[i]=sc.nextInt();
+	arr[j]=sc.nextInt();
 }
-int res=missiongNumber(arr,n);
+int res=missiongNumber(arr,t);
 System.out.print(res);
 	}
 
