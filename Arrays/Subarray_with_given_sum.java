@@ -41,9 +41,9 @@ public class Subarray_with_given_sum {
 	
 	
 //	Time Complexity : O(n) 
-	int subArray(int arr[], int n, int sum)  
+	int subArray(int array[], int n, int sum)  
     { 
-        int temp= arr[0];
+        int temp= array[0];
         int start = 0;
         int i; 
         for (i = 1; i <= n; i++)  
@@ -51,7 +51,7 @@ public class Subarray_with_given_sum {
              
             while (temp > sum && start < i-1) 
             { 
-                temp = temp - arr[start]; 
+                temp = temp - array[start]; 
                 start++; 
             } 
             if (temp== sum)  
@@ -62,7 +62,7 @@ public class Subarray_with_given_sum {
                 return 1; 
             } 
             if (i < n) 
-            temp=temp + arr[i]; 
+            temp=temp + array[i]; 
               
         } 
   //if no subarray found
