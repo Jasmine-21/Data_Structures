@@ -14,14 +14,14 @@ public class rotation_another_string {
 	       String s1=sc.next();
 	       System.out.print("str2:");
 	       String s2=sc.next();
-	         String ans="";//clock
-	         String ans2="";//anticlock
+	         String answer1="";//clock
+	         String answer2="";//anticlock
 	         int l=s1.length();
 	         if(s1.length()!=s2.length())
 	        	 System.out.print("no");
-	         ans=ans+s1.substring(2)+s1.substring(0,2);
-	         ans2=ans2+s1.substring(l-2,l)+s1.substring(0,l-2);
-	         if(s2.equals(ans)|| s2.equals(ans2)) 
+	         answer1=answer1+s1.substring(2)+s1.substring(0,2);
+	         answer2=answer2+s1.substring(l-2,l)+s1.substring(0,l-2);
+	         if(s2.equals(answer1)|| s2.equals(ans2)) 
 	        	 System.out.print("yes");
 	         else 
 	        	 System.out.print("no");
