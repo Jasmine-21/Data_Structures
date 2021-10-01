@@ -1,18 +1,18 @@
 package Recursion;
 import java.util.*;
 public class count_subset {
-public static void print(int n,char[] str,char[] A)
+public static void print(int n,char[] str,char[] array)
 {
 	if(n<=0)//(means array is full)
 	{
-		System.out.print(String.valueOf(A) + " ");
+		System.out.print(String.valueOf(array) + " ");
 
 	}
 	else
 	{
 		for (int i = 0; i < str.length; i++) {
-			A[n - 1] = str[i];
-			print(n - 1, str, A);
+			array[n - 1] = str[i];
+			print(n - 1, str, array);
 		}
 	}
 }
