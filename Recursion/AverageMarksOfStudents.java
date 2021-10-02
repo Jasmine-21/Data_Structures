@@ -25,7 +25,7 @@ public class AverageMarksOfStudents {
 			avgMarks+=marks[i];
 		}
 		
-		avgMarks/=n;
+		avgMarks/=(float)n;
 		System.out.println("The average marks are: "+avgMarks);
 
 	}
