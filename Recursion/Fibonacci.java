@@ -11,7 +11,8 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.print(print(13));
+		System.out.print(print(13));
+		// result is 144
 	}
 
 }
