@@ -22,21 +22,25 @@ int c1=0;
 int c2=n-1;
 while(r1<=r2&&c1<=c2)
 {
+	// To display top row
 	for(int j=c1;j<=c2;j++)
 	{
 		System.out.print(a[r1][j]+" ");
 	}
+	// To display right most column
 	r1++;
 	for(int i=r1;i<=r2;i++)
 	{
 		System.out.print(a[i][c2]+" ");
 	}
+	// To display left most column
 	c2--;
 	for(int j=c2;j>=c1;j--)
 	{
 		System.out.print(a[r2][j]+" ");
 
 	}
+	// To display bottom row
 	r2--;
 	for(int i=r2;i>=r1;i--)
 	{
