@@ -4,19 +4,19 @@ import java.util.Arrays;
 
 public class Anagram {
 
-	public static boolean areAnagram(char[] s3,char[] s4)
+	public static boolean areAnagram(char[] string3,char[] s4)
 	{
-		int n1=s3.length;
+		int n1=string3.length;
 		int n2=s4.length;
 		if(n1!=n2)
 		{
 			return false;
 		}
-		Arrays.sort(s3);
+		Arrays.sort(string3);
 		Arrays.sort(s4);
 		for(int i=0;i<n1;i++)
 		{
-			if(s3[i]!=s4[i])
+			if(string3[i]!=s4[i])
 				return false;
 		}
 		return true;
