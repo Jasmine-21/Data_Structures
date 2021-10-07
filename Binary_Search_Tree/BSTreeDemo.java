@@ -15,9 +15,9 @@ public class BSTreeDemo {
         t.addNode(15);
         t.addNode(2);
         t.addNode(25);
-       System.out.println("Finding 6 = " + t.findNode(6));
+       System.out.println("Finding 8 = " + t.findNode(6));
 
-        System.out.println("Finding 9 = "+t.findNode(9));
+        System.out.println("Finding 20 = "+t.findNode(9));
         t.inOrderTravesal(t.root);
         t.remove(10);
         System.out.println();
